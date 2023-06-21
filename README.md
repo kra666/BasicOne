@@ -1,2 +1,0 @@
-# BasicOne
-preparation
