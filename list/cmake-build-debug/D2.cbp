@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="D2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fang/CLionProjects/D2/list/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="D2">
+				<Option output="/home/fang/CLionProjects/D2/list/cmake-build-debug/D2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fang/CLionProjects/D2/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 D2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="D2/fast">
+				<Option output="/home/fang/CLionProjects/D2/list/cmake-build-debug/D2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fang/CLionProjects/D2/list/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 D2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fang/CLionProjects/D2/list/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fang/CLionProjects/D2/list/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/fang/CLionProjects/D2/list/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fang/CLionProjects/D2/include/sampl100_1.h">
+			<Option target="D2"/>
+		</Unit>
+		<Unit filename="/home/fang/CLionProjects/D2/include/smpl1.h">
+			<Option target="D2"/>
+		</Unit>
+		<Unit filename="/home/fang/CLionProjects/D2/main.c">
+			<Option target="D2"/>
+		</Unit>
+		<Unit filename="/home/fang/CLionProjects/D2/src/samp1.c">
+			<Option target="D2"/>
+		</Unit>
+		<Unit filename="/home/fang/CLionProjects/D2/src/sampl100_1.c">
+			<Option target="D2"/>
+		</Unit>
+		<Unit filename="/home/fang/CLionProjects/D2/list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
